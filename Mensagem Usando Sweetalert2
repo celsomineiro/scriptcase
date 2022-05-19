@@ -1,0 +1,10 @@
+$params = array(
+'title' => 'Título',
+'type' => 'success',
+'timer' => '2000',
+'showConfirmButton' => false,
+'position' => 'bottom-end',
+'toast' => true
+);
+
+sc_alert("Inserido com sucesso!", $params);
